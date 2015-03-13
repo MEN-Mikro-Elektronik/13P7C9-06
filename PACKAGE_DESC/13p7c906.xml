@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
+	<name>13p7c906</name>
+	<description>MDIS5 driver package for Pericom PI7C9 onchip GPIO controller</description>
+	<date>2014-07-17</date>
+	<revision>1.5</revision>
+	<docroot>DRIVERS/MDIS_LL/PI7C9_GPIO/DOC/html/index.html</docroot>
+	<!-- Models -->
+	<modellist>
+		<model>
+			<hwname>PI7C9_GPIO</hwname>
+			<modelname>F223_GPIO</modelname>
+			<description>GPIO controller in Pericom PI7C9 USB bridge</description>
+			<devtype>MDIS</devtype>
+			<busif>Local Bus</busif>
+			<settinglist>
+				<setting hidden="true">
+					<name>PCI_VENDOR_ID</name>
+					<type>U_INT32</type>
+					<defaultvalue>0x12D8</defaultvalue>
+				</setting>
+				<setting hidden="true">
+					<name>PCI_DEVICE_ID</name>
+					<type>U_INT32</type>
+					<defaultvalue>0x400A</defaultvalue>
+				</setting>
+			</settinglist>
+			<swmodulelist>
+				<swmodule swap="false">
+					<name>pi7c9_gpio</name>
+					<description>GPIO Driver</description>
+					<type>Low Level Driver</type>
+					<makefilepath>PI7C9_GPIO/DRIVER/COM/driver.mak</makefilepath>
+				</swmodule>
+			</swmodulelist>
+		</model>
+	</modellist>
+	<!-- Global software modules -->
+	<swmodulelist>
+		<swmodule>
+			<name>pi7c9_gpio_simp</name>
+			<description>Example program for PI7C9 GPIO driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>PI7C9_GPIO/EXAMPLE/PI7C9_GPIO_SIMP/COM/program.mak</makefilepath>
+		</swmodule>
+  </swmodulelist>
+</package>

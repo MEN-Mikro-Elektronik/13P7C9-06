@@ -1,0 +1,34 @@
+===== [ History of fileset ART/13P7C9-06/13P7C9-06 ] =====
+
+
+-----[ Revision 1.5 ]-----
+[ 2014-07-17 17:26:50 by ts ]
+pi7c9_gpio_simp.c RCS 1.3 -> RCS 1.5
+R: compile with gcc 4.8, kernel 3.14 showed warning 'suggested parentheses'
+M: added additional round brackets in if clauses, cosmetics
+
+-----[ Revision 1.4 ]-----
+[ 2013-08-13 11:20:35 by ts ]
+13p7c906.xml
+ R: package 13PI7C9-06 used in 13MD05-90 contained still wrong bus type (PCI)
+ M: bus type in 13p7c906.xml changed to Local Bus as needed in F223 BBIS
+
+-----[ Revision 1.3 ]-----
+[ 2012-08-02 16:05:28 by ts ]
+pi7c9_gpio_simp.c
+ R: setting of multiple ports wasnt possible
+ M: added handling for multiple port set or clear
+
+-----[ Revision 1.2 ]-----
+[ 2012-08-02 13:02:06 by ts ]
+pi7c9_gpio_drv.c
+ R: previously set Registers were overwritten when other ports were set
+ M: corrected algorithm for masking the port bits
+13p7c906.xml
+ R: wrong baseboard entry
+ M: corrected to PCI generic BBIS, used 13y00206 as template
+
+-----[ Revision 1.1 ]-----
+[ 2012-07-17 17:57:31 by ts ]
+Initial Revision
+
