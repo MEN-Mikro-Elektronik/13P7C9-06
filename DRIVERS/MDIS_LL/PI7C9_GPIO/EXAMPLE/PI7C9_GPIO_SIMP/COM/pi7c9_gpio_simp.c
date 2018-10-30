@@ -10,33 +10,24 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     \switches (none)
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: pi7c9_gpio_simp.c,v $
- * Revision 1.5  2014/07/17 17:20:12  ts
- * R: corrected previous wrong checkin, one bracket missed
- *
- * Revision 1.4  2014/07/17 17:08:02  ts
- * R: compile with gcc 4.8, kernel 3.14 showed warning 'suggested parentheses'
- * M: added additional round brackets in if clause
- *
- * Revision 1.3  2012/08/02 16:03:23  ts
- * R: setting of multiple ports wasnt possible
- * M: added handling for multiple port set or clear
- *
- * Revision 1.2  17.07.2012 17:55:11 by ts
- * R: 1. cosmetics, copyright line was outdated
- *    2. filename in \file statement not recognized during Doxygen run
- * M: 1. corrected docu header and copyright line
- *    2. corrected filename, added .c
- *
- * 1.1  17.07.2012 13:43:36 by ts
- *
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2012 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #include <stdio.h>
 #include <string.h>
