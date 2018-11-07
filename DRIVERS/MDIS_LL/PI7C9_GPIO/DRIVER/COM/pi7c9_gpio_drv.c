@@ -12,17 +12,8 @@
  *
  *     \switches _ONE_NAMESPACE_PER_DRIVER_, WDOG, WDOG_ONLY
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: pi7c9_gpio_drv.c,v $
- * Revision 1.2  2012/08/02 12:42:54  ts
- * R: previously set Registers were overwritten when other ports were set
- * M: corrected algorithm for masking the port bits
- *
- * Revision 1.1  2012/07/17 13:39:43  ts
- * Initial Revision
- *
- *----------------------------------------------------------------------------
+/*
+ *---------------------------------------------------------------------------
  * (c) Copyright 2012 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ****************************************************************************/
 /*
