@@ -73,7 +73,7 @@
 /** \example pi7c9_gpio_simp.c */
 
 
-/*! \page dummy
+/*! \page pi7c9dummy MEN logo
   \menimages
 */
 
