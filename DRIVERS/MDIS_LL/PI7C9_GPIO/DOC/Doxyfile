@@ -1,0 +1,21 @@
+@INCLUDE_PATH = $(MEN_DOXYGENTMPL)
+@INCLUDE = DoxyfileCommon
+
+PROJECT_NAME           = "PI7C9 MDIS Driver"
+INPUT                  = ../DRIVER/COM \
+                         $(MEN_COM_INC)/MEN/pi7c9_gpio_drv.h \
+                         ../EXAMPLE/PI7C9_GPIO_SIMP/COM/pi7c9_gpio_simp.c
+
+EXAMPLE_RECURSIVE      = YES
+EXAMPLE_PATH           = ../EXAMPLE/PI7C9_GPIO_SIMP/COM \
+                         ../DRIVER/COM
+OUTPUT_DIRECTORY       = .
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTMLHELP      = YES
+WARNINGS               = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_UNDOCUMENTED   = YES
+GENERATE_HTMLHELP      = YES
+TAGFILES               = ../../../../LIBSRC/MDIS_API/DOC/mdis_api.tag=../../../../../LIBSRC/MDIS_API/DOC/html
+GENERATE_TAGFILE       = z17_driver.tag
