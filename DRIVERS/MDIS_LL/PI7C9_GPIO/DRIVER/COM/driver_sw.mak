@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: km
-#          $Date: 2012/07/17 17:14:55 $
-#      $Revision: 1.1 $
 #
 #    Description: Makefile definitions for the PI7C9_GPIO driver, for swapped
 #                 platforms. 
@@ -24,8 +22,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 MAK_NAME=pi7c9_gpio_sw
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="13P7C9-06_01_06-6-gdc102c9-dirty_2019-05-30"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
 
 MAK_SWITCH=$(SW_PREFIX)MAC_MEM_MAPPED \
+		$(SW_PREFIX)$(DEF_REVISION) \
 			$(SW_PREFIX)MAC_BYTESWAP \
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/desc$(LIB_SUFFIX)	\

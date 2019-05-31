@@ -2,8 +2,6 @@
 /*!
  *         \file pi7c9_gpio_simp
  *       \author km
- *        $Date: 2014/07/17 17:20:12 $
- *    $Revision: 1.5 $
  *
  *       \brief  Tool to access the PI7C9X442SL (8-bit) I/Os
  *
@@ -38,6 +36,8 @@
 #include <MEN/usr_utl.h>
 #include <MEN/pi7c9_gpio_drv.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*--------------------------------------+
 |   PROTOTYPES                          |
 +--------------------------------------*/
@@ -62,7 +62,7 @@ static void usage(void)
 	printf("    -T	       toggle output port(s) in a loop\n");			
 	printf("    -h         hold path open until keypress\n");
 	printf("\n");
-	printf("(c) 2012 by MEN mikro elektronik GmbH\n\n");
+	printf("Copyright (c) 2012-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /***********************************************************************************/

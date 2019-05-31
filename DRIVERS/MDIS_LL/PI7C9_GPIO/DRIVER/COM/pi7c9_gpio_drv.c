@@ -3,8 +3,6 @@
  *        \file  pi7c9_gpio_drv.c
  *
  *      \author  km
- *        $Date: 2012/08/02 12:42:54 $
- *    $Revision: 1.2 $
  *
  *      \brief   Low-level driver for Pericom PI7C9X442SL GPIO access 
  *

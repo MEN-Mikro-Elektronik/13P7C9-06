@@ -3,8 +3,6 @@
  *        \file  pi7c9_gpio_drv.h
  *
  *      \author  km
- *        $Date: 2012/07/17 13:46:32 $
- *    $Revision: 3.1 $
  *
  *       \brief  Header file for PI7C9_GPIO driver containing
  *               PI7C9_GPIO specific status codes and

@@ -3,8 +3,6 @@
  *        \file  pi7c9_gpio_doc.c
  *
  *      \author  km
- *        $Date: 2012/07/17 17:52:06 $
- *    $Revision: 1.2 $
  *
  *      \brief   User documentation for PI7C9_GPIO driver
  *
