@@ -84,6 +84,8 @@ typedef struct {
 #include <MEN/ll_entry.h>   	/* low-level driver jump table  */
 #include <MEN/pi7c9_gpio_drv.h> /* PI7C9_GPIO driver header file */
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*-----------------------------------------+
 |  PROTOTYPES                              |
 +-----------------------------------------*/
@@ -769,7 +771,7 @@ static int32 PI7C9_GPIO_Info(
  ***********************************************************************************/
 static char* Ident( void )
 {
-    return( "PI7C9_GPIO - PI7C9_GPIO low-level driver: $Id: pi7c9_gpio_drv.c,v 1.2 2012/08/02 12:42:54 ts Exp $" );
+    return( (char*) IdentString );
 }
 
 /****************************** Cleanup ********************************************/
