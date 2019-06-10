@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
 	<name>13p7c906</name>
 	<description>MDIS5 driver package for Pericom PI7C9 onchip GPIO controller</description>
-	<date>2014-07-17</date>
-	<revision>1.5</revision>
+	<date>2019-06-07</date>
+	<revision>13P7C9-06_01_06-9-gb924a05</revision>
 	<docroot>DRIVERS/MDIS_LL/PI7C9_GPIO/DOC/html/index.html</docroot>
 	<!-- Models -->
 	<modellist>
