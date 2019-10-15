@@ -1,7 +1,7 @@
 @INCLUDE_PATH = $(MEN_DOXYGENTMPL)
 @INCLUDE = DoxyfileCommon
 
-#MDIS_COMMIT=8150539bd5a9cbd2a731b95a3bf62d8fad0c4881
+#MDIS_COMMIT=dbe4fe776461f0ea2b3d760d82adcdff6c18c8f8
 
 PROJECT_NAME           = "PI7C9 MDIS Driver"
 INPUT                  = ../DRIVER/COM \

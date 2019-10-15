@@ -57,52 +57,53 @@
 <tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a8">GPIO_COUNT</a>&nbsp;&nbsp;&nbsp;8</td></tr>
 
 <tr><td colspan=2><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a9">PI7C9_GPIO_Init</a> (DESC_SPEC *descSpec, OSS_HANDLE *osHdl, MACCESS *ma, OSS_SEM_HANDLE *devSemHdl, OSS_IRQ_HANDLE *irqHdl, <a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a10">PI7C9_GPIO_Init</a> (DESC_SPEC *descSpec, OSS_HANDLE *osHdl, MACCESS *ma, OSS_SEM_HANDLE *devSemHdl, OSS_IRQ_HANDLE *irqHdl, <a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Allocate and return low-level handle, initialize hardware. </em> <a href="#a9"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a10">PI7C9_GPIO_Exit</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Allocate and return low-level handle, initialize hardware. </em> <a href="#a10"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a11">PI7C9_GPIO_Exit</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">De-initialize hardware and clean up memory. </em> <a href="#a10"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a11">PI7C9_GPIO_Read</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 *value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">De-initialize hardware and clean up memory. </em> <a href="#a11"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a12">PI7C9_GPIO_Read</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 *value)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a value from the device. </em> <a href="#a11"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a12">PI7C9_GPIO_Write</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a value from the device. </em> <a href="#a12"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a13">PI7C9_GPIO_Write</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 value)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Description: Write a value to the device. </em> <a href="#a12"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a13">PI7C9_GPIO_SetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 code, INT32_OR_64 value32_or_64)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Description: Write a value to the device. </em> <a href="#a13"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a14">PI7C9_GPIO_SetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 code, INT32_OR_64 value32_or_64)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set the driver status. </em> <a href="#a13"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a14">PI7C9_GPIO_GetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 code, INT32_OR_64 *value32_or_64P)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set the driver status. </em> <a href="#a14"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a15">PI7C9_GPIO_GetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 code, INT32_OR_64 *value32_or_64P)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the driver status. </em> <a href="#a14"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a15">PI7C9_GPIO_BlockRead</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrRdBytesP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the driver status. </em> <a href="#a15"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a16">PI7C9_GPIO_BlockRead</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrRdBytesP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a data block from the device. </em> <a href="#a15"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a16">PI7C9_GPIO_BlockWrite</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrWrBytesP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a data block from the device. </em> <a href="#a16"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a17">PI7C9_GPIO_BlockWrite</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrWrBytesP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a data block from the device. </em> <a href="#a16"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a17">PI7C9_GPIO_Irq</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a data block from the device. </em> <a href="#a17"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a18">PI7C9_GPIO_Irq</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Interrupt service routine. </em> <a href="#a17"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a18">PI7C9_GPIO_Info</a> (int32 infoType,...)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Interrupt service routine. </em> <a href="#a18"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a19">PI7C9_GPIO_Info</a> (int32 infoType,...)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get information about hardware and driver requirements. </em> <a href="#a18"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>char *&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a19">Ident</a> (void)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get information about hardware and driver requirements. </em> <a href="#a19"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>char *&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a20">Ident</a> (void)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Return ident string. </em> <a href="#a19"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a20">Cleanup</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 retCode)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Return ident string. </em> <a href="#a20"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a21">Cleanup</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 retCode)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Close all handles, free memory and return error code. </em> <a href="#a20"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a21">__PI7C9_GPIO_GetEntry</a> (LL_ENTRY *drvP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Close all handles, free memory and return error code. </em> <a href="#a21"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a22">__PI7C9_GPIO_GetEntry</a> (LL_ENTRY *drvP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialize driver's jump table. </em> <a href="#a21"></a><em><br><br></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialize driver's jump table. </em> <a href="#a22"></a><em><br><br></td></tr>
+<tr><td colspan=2><br><h2>Variables</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>const char&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="pi7c9__gpio__drv_8c.html#a9">IdentString</a> [] = MENT_XSTR(MAK_REVISION)</td></tr>
+
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 Low-level driver for Pericom PI7C9X442SL GPIO access. 
 <p>
-<dl compact><dt><b>Author:</b></dt><dd>km <dl compact><dt><b>Date</b></dt><dd>2012/08/02 12:42:54 </dd></dl>
-<dl compact><dt><b>Revision</b></dt><dd>1.2 </dd></dl>
-</dd></dl>
+<dl compact><dt><b>Author:</b></dt><dd>km</dd></dl>
 <p>
 Required: OSS, DESC, DBG, libraries<p>
 <dl compact><dt><b>Preprocessor Switches:</b></dt><dd>_ONE_NAMESPACE_PER_DRIVER_, WDOG, WDOG_ONLY</dd></dl>
@@ -320,7 +321,7 @@ Interrupt required.
   </tr>
 </table>
 <hr><h2>Function Documentation</h2>
-<a name="a21" doxytag="pi7c9_gpio_drv.c::__PI7C9_GPIO_GetEntry"></a><p>
+<a name="a22" doxytag="pi7c9_gpio_drv.c::__PI7C9_GPIO_GetEntry"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -356,7 +357,7 @@ Initialize driver's jump table.
     </td>
   </tr>
 </table>
-<a name="a20" doxytag="pi7c9_gpio_drv.c::Cleanup"></a><p>
+<a name="a21" doxytag="pi7c9_gpio_drv.c::Cleanup"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -404,7 +405,7 @@ Close all handles, free memory and return error code.
     </td>
   </tr>
 </table>
-<a name="a19" doxytag="pi7c9_gpio_drv.c::Ident"></a><p>
+<a name="a20" doxytag="pi7c9_gpio_drv.c::Ident"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -436,7 +437,7 @@ Return ident string.
     </td>
   </tr>
 </table>
-<a name="a15" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_BlockRead"></a><p>
+<a name="a16" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_BlockRead"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -505,7 +506,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a16" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_BlockWrite"></a><p>
+<a name="a17" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_BlockWrite"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -574,7 +575,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a10" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Exit"></a><p>
+<a name="a11" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Exit"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -612,7 +613,7 @@ The function deinitializes the HW, the watchdog will be disabled.<p>
     </td>
   </tr>
 </table>
-<a name="a14" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_GetStat"></a><p>
+<a name="a15" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_GetStat"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -675,7 +676,7 @@ The driver supports <a class="el" href="pi7c9__gpio__drv_8h.html#getstat_setstat
     </td>
   </tr>
 </table>
-<a name="a18" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Info"></a><p>
+<a name="a19" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Info"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -736,7 +737,7 @@ The LL_INFO_LOCKMODE code returns which process locking mode the driver needs (L
     </td>
   </tr>
 </table>
-<a name="a9" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Init"></a><p>
+<a name="a10" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Init"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -813,7 +814,7 @@ The function decodes <a class="el" href="index.html#descriptor_entries">these de
     </td>
   </tr>
 </table>
-<a name="a17" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Irq"></a><p>
+<a name="a18" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Irq"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -851,7 +852,7 @@ The driver supports no interrupts and always returns LL_IRQ_DEV_NOT<p>
     </td>
   </tr>
 </table>
-<a name="a11" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Read"></a><p>
+<a name="a12" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Read"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -906,7 +907,7 @@ The function reads the current state of all port pins.<p>
     </td>
   </tr>
 </table>
-<a name="a13" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_SetStat"></a><p>
+<a name="a14" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_SetStat"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -968,7 +969,7 @@ The driver supports <a class="el" href="pi7c9__gpio__drv_8h.html#getstat_setstat
     </td>
   </tr>
 </table>
-<a name="a12" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Write"></a><p>
+<a name="a13" doxytag="pi7c9_gpio_drv.c::PI7C9_GPIO_Write"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1023,6 +1024,29 @@ The function writes a value to the ports which are programmed as outputs.<p>
     </td>
   </tr>
 </table>
+<hr><h2>Variable Documentation</h2>
+<a name="a9" doxytag="pi7c9_gpio_drv.c::IdentString"></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> const char <a class="el" href="pi7c9__gpio__simp_8c.html#a0">IdentString</a>[] = MENT_XSTR(MAK_REVISION)<code> [static]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
 
 	</div>
 </div>
@@ -1030,8 +1054,7 @@ The function writes a value to the ports which are programmed as outputs.<p>
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for PI7C9 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for PI7C9 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 
