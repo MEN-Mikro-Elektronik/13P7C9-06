@@ -10,7 +10,7 @@
  */
  /*
  *---------------------------------------------------------------------------
- * Copyright (c) 2012-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2012-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 /*
 * This program is free software: you can redistribute it and/or modify
@@ -62,7 +62,7 @@ static void usage(void)
 	printf("    -T	       toggle output port(s) in a loop\n");			
 	printf("    -h         hold path open until keypress\n");
 	printf("\n");
-	printf("Copyright (c) 2012-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
+	printf("Copyright 2012-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /***********************************************************************************/
